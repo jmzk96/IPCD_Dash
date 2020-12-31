@@ -1,0 +1,1580 @@
+
+<!-- saved from url=(0057)https://www.fgdl.org/metadata/fgdl_html/bts_ipcd_2018.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> FGDL Documentation </title>
+<style>
+          .pre { color: black; font-size: 12pt; font-weight: normal; font-family: courier; }
+	  strong {font-weight: normal; text-transform: uppercase; }
+</style>
+</head>
+<body>
+<table width="90%">
+<tbody><tr>
+<td>
+<strong><b>FLORIDA GEOGRAPHIC DATA LIBRARY DOCUMENTATION</b></strong><br>
+<p>
+<strong><b>TITLE: INTERMODAL PASSENGER CONNECTIVITY DATABASE (IPCD) OF TRANSPORTATION TERMINALS IN FLORIDA - 2018</b></strong>
+</p>
+<pre>Geodataset Name:       BTS_IPCD_2018
+Geodataset Type:       SHAPEFILE
+Geodataset Feature:    <strong>Point</strong>
+Feature Count:         507
+</pre>
+</td>
+</tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr>
+<td>
+<strong><b>GENERAL DESCRIPTION:</b></strong>
+<table width="650">
+<tbody><tr>
+<td>
+This dataset contains the Florida subset of the BTS' Intermodal Passenger Connectivity Database (IPCD), with data on the availability of connections among the various scheduled public transportation modes at each facility. The IPCD data covers the following types of passenger transportation terminals/stops: 1. Scheduled airline service airports. 2. Intercity bus stations (includes stations served by regular scheduled intercity bus service such as Greyhound, Trailways, code sharing buses such as Amtrak Thruway feeder buses, supplemental buses that provide additional frequencies along rail routes, and airport bus services from locations that are outside of the airport metropolitan area). 3. Intercity and transit ferry terminals. 4. Light-rail transit stations. 5. Heavy-rail transit stations. 6. Passenger-rail stations on the national rail network served by intercity rail and/or commuter rail services. 7. Bike-share stations belonging to bike-share systems that are open to the general public, IT-automated, and station based (contain hubs to which users can grab and return a bike) The data elements describe the location of the above types of terminals as well as the availability of intercity, commuter, and transit rail; scheduled air service; intercity and transit bus; intercity and transit ferry services; and bike-share availability.
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td>
+<pre>DATA SOURCE(S):                    U.S. Department of Transportation, Bureau of Transportation Statistics
+SCALE OF ORIGINAL SOURCE MAPS:     Unknown
+GEODATASET EXTENT:                 State of Florida<br>
+PUBLICATION DATE:                  20190412
+TIME PERIOD OF CONTENT:            20180703
+DOWNLOAD LINK:                     <a href="http://www.fgdl.org/metadataexplorer/explorer.jsp">http://www.fgdl.org/metadataexplorer/explorer.jsp</a>
+</pre>
+</td>
+</tr>
+</tbody></table>
+<p>
+<strong><b>FEATURE ATTRIBUTE TABLES:</b></strong>
+</p>
+<pre>Datafile Name: BTS_IPCD_2018.DBF</pre>
+<table width="75%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr align="left">
+<td> ITEM NAME </td>
+<td>WIDTH</td>
+<td>TYPE</td>
+</tr>
+<tr>
+<td>
+<div align="left">OBJECTID
+</div>
+</td>
+<td>4</td>
+<td>OID</td>
+</tr>
+<tr>
+<td>
+<div align="left">Shape
+</div>
+</td>
+<td>4</td>
+<td>Geometry</td>
+</tr>
+<tr>
+<td>
+<div align="left">FAC_ID
+</div>
+</td>
+<td>15</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">POINT_ID
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">NEAR_ID_1
+</div>
+</td>
+<td>10</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">NEAR_ID_2
+</div>
+</td>
+<td>1</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">NEAR_ID_3
+</div>
+</td>
+<td>1</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">AIR_CODE
+</div>
+</td>
+<td>5</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">AIR_CODE2
+</div>
+</td>
+<td>5</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">AMTRAKCODE
+</div>
+</td>
+<td>5</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">FERRY_CODE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">RAIL_ID
+</div>
+</td>
+<td>10</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">BIKE_ID
+</div>
+</td>
+<td>40</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">DATE_UPDTE
+</div>
+</td>
+<td>25</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">ADDRESS
+</div>
+</td>
+<td>55</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">CITY
+</div>
+</td>
+<td>30</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">STATE
+</div>
+</td>
+<td>2</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">ZIPCODE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">METRO_AREA
+</div>
+</td>
+<td>45</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">FAC_NAME
+</div>
+</td>
+<td>65</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">LONGITUDE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">LATITUDE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">POINT_LON
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">POINT_LAT
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">FAC_TYPE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">FERRY_T
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">FERRY_I
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">BUS_T
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">BUS_I
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">BUS_CODE_S
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">BUS_SUPP
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">RAIL_I
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">RAIL_C
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">RAIL_H
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">RAIL_LIGHT
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">AIR_SERVE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">BIKE_SHARE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">BIKE_SYS_I
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">BIKE_SYS
+</div>
+</td>
+<td>20</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">WEBSITE
+</div>
+</td>
+<td>80</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">NOTES
+</div>
+</td>
+<td>155</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">SOURCE
+</div>
+</td>
+<td>120</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">I_SERVICE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">T_SERVICE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">CBSA_CODE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">CBSA_TYPE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">MODES_SERV
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">MODE_BUS
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">MODE_AIR
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">MODE_RAIL
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">MODE_FERRY
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">MODE_BIKE
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">LAT_DD
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">LONG_DD
+</div>
+</td>
+<td>8</td>
+<td>Double</td>
+</tr>
+<tr>
+<td>
+<div align="left">MGRS
+</div>
+</td>
+<td>15</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">GOOGLEMAP
+</div>
+</td>
+<td>55</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">DESCRIPT
+</div>
+</td>
+<td>70</td>
+<td>String</td>
+</tr>
+<tr>
+<td>
+<div align="left">FGDLAQDATE
+</div>
+</td>
+<td>36</td>
+<td>Date</td>
+</tr>
+<tr>
+<td>
+<div align="left">AUTOID
+</div>
+</td>
+<td>4</td>
+<td>Integer</td>
+</tr>
+</tbody></table>
+<p>
+<strong><b>FEATURE ATTRIBUTE TABLES CODES AND VALUES:</b></strong>
+</p>
+<p>
+<table width="75%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td width="30%">Item<pre></pre></td>
+<td>Item Description<pre></pre></td>
+</tr>
+<tr valign="top">
+<td>OBJECTID</td>
+<td>
+Internal feature number.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>Shape</td>
+<td>
+Feature geometry.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>FAC_ID</td>
+<td>
+Unique record identifier. The identifier is unique to each record; records located at the same location as another will each have a unique FacilityID.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>POINT_ID</td>
+<td>
+Unique identifier for the transportation facility. The identifier is the same for records of different modes that are located at the same facility.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>NEAR_ID_1</td>
+<td>
+Undefined by Source.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>NEAR_ID_2</td>
+<td>
+Undefined by Source.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>NEAR_ID_3</td>
+<td>
+Undefined by Source.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>AIR_CODE</td>
+<td>
+Three letter airport code<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>AIR_CODE2</td>
+<td>
+Alternate three character airport code<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>AMTRAKCODE</td>
+<td>
+Three character Amtrak station code<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>FERRY_CODE</td>
+<td>
+Four digit ferry terminal code<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>RAIL_ID</td>
+<td>
+Record number for the heavy, light, or commuter rail station found in the US Department of Transportation Bureau of Transportation Statistics, National Transportation Atlas Database (2013) Fixed-Guideway Transit Facilities database.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>BIKE_ID</td>
+<td>
+ID assigned by bike share system provider to the bike-share station. Unique within a bike share system.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>DATE_UPDTE</td>
+<td>
+Date on Which Record was Last Updated.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>ADDRESS</td>
+<td>
+Street Address.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>CITY</td>
+<td>
+Name of City Where Facility is Located.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>STATE</td>
+<td>
+Postal State Abbreviation.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>ZIPCODE</td>
+<td>
+Postal Five Digit Zip Code.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>METRO_AREA</td>
+<td>
+Metro Area.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>FAC_NAME</td>
+<td>
+Facility Name.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>LONGITUDE</td>
+<td>
+Longitude, Decimal degrees for the facility identified by the FacilityID. This is unique to each record.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>LATITUDE</td>
+<td>
+Latitude, Decimal degrees for the facility identified by the FacilityID. This is unique to each record.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>POINT_LON</td>
+<td>
+Longitude, Decimal degrees for the facility identified by the point_ID. When two or more records are found at the same location, POINT_LON is the average of the Longitude fields for those records; otherwise same as the Longitude field.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>POINT_LAT</td>
+<td>
+Latitude, Decimal degrees for the facility identified by the point_ID. When two or more records are found at the same location, POINT_LAT is the average of the Latitude fields for those records; otherwise same as the Latitude field.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>FAC_TYPE</td>
+<td>
+Facility Mode Identifier That Shows Primary Mode Serving a Facility. Other Modes May Also Provide Service as Shown in the Individual Facility Record.<table>
+<tbody><tr>
+<td>
+1 = Facility is primarily an airport<br><pre></pre>
+2 = Facility is primarily served by intercity bus<br><pre></pre>
+5 = Facility primarily serving intercity passenger ferries<br><pre></pre>
+6 = Facility primarily serving transit or local area ferries<br><pre></pre>
+8 = Facility primarily serving light rail transit<br><pre></pre>
+9 = Facility primarily serving heavy rail transit<br><pre></pre>
+10 = Station on the national railroad network served by intercity trains<br><pre></pre>
+11 = Station on the national railroad network served by commuter trains<br><pre></pre>
+12 = Facility primarily serving bike-share<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>FERRY_T</td>
+<td>
+Service Availability Indicator for Transit Ferry.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>FERRY_I</td>
+<td>
+Service Availabililty Indicator for Intercity Ferry.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>BUS_T</td>
+<td>
+Service Availability Indicator for Transit Bus.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>BUS_I</td>
+<td>
+Service Availability Indicator for Intercity Bus.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>BUS_CODE_S</td>
+<td>
+Service Availability Indicator for Code Share Bus Operated as Connecting Service to Rail or Airline Service.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>BUS_SUPP</td>
+<td>
+Service Availability Indicator for Supplemental Bus Service operated to provide additional frequencies on a route served by Intercity or Commuter Rail.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>RAIL_I</td>
+<td>
+Service Availability Indicator for Intercity Rail.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>RAIL_C</td>
+<td>
+Service Availability Indicator for Commuter Rail.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>RAIL_H</td>
+<td>
+Service Availability Indicator for Heavy Rail.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>RAIL_LIGHT</td>
+<td>
+Service Availability Indicator for Light Rail.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>AIR_SERVE</td>
+<td>
+Service Availability Indicator for Scheduled Airline Service.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>BIKE_SHARE</td>
+<td>
+Service Availability Indicator for Bike Share.<table>
+<tbody><tr>
+<td>
+0 = Service not provided at this facility but elsewhere in the metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+1 = Service provided at this facility<br><pre></pre>
+2 = Service provided but does not qualify as a connecting mode because proximity, timing, or bi-directional service criteria are not met<br><pre></pre>
+3 = Service by this mode not offered in this metropolitan area (or city when in a non-metropolitan area.)<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>BIKE_SYS_I</td>
+<td>
+Unique ID for bike-share system.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>BIKE_SYS</td>
+<td>
+Name of bike-share system.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>WEBSITE</td>
+<td>
+Web Address for Official Facility Website.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>NOTES</td>
+<td>
+Notes on Service Providers, Connectivity Issues, etc.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>SOURCE</td>
+<td>
+Data Sources Used.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>I_SERVICE</td>
+<td>
+Indicator that Service at Facility is Provided by at Least One Intercity Transportation Mode (RailIntercity, BusIntercity, BusShare, BusSupplemental, FerryIntercity or AirService).<table>
+<tbody><tr>
+<td>
+0 = No Intercity service available<br><pre></pre>
+1 = Intercity service available<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>T_SERVICE</td>
+<td>
+Indicator that service at facility is provided by at least one transit mode (RailCommuter, RailHeavy, RailLight, BusTransit, or FerryTransit).<table>
+<tbody><tr>
+<td>
+0 = No Transit Service Available<br><pre></pre>
+1 = Transit Service Available<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>CBSA_CODE</td>
+<td>
+Census Bureau Core Based Statistical Area Code.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>CBSA_TYPE</td>
+<td>
+Indicates whether CBSA is a Metropolitan Statistical Area (at least one urbanized area of 50,000+ population), or Micropolitan Statistical Area (at least one urbanized area of 10,000-50,000 population).<table>
+<tbody><tr>
+<td>
+0 = Not in a CBSA<br><pre></pre>
+1 = Metro<br><pre></pre>
+2 = Micro<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>MODES_SERV</td>
+<td>
+Count of the Number of Transportation Modes Serving the Facility (from ModeBus, ModeAir, ModeRailStd, ModeRailTrt, ModeFerry, ModeBike).<table>
+<tbody><tr>
+<td>
+1 = Facility served by 1 mode<br><pre></pre>
+2 = Facility served by 2 modes<br><pre></pre>
+3 = Facility served by 3 modes<br><pre></pre>
+4 = Facility served by 4 modes<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>MODE_BUS</td>
+<td>
+Indicates if Any Category of Bus Service is Provided at the Facility (BusIntercity, BusTransit, BusCodeShare, BusSupplemental).<table>
+<tbody><tr>
+<td>
+0 = No bus service availale<br><pre></pre>
+1 = Bus service availale<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>MODE_AIR</td>
+<td>
+Indicates if Any Category of Air Service is Provided at the Facility (AirService).<table>
+<tbody><tr>
+<td>
+0 = No air service availale<br><pre></pre>
+1 = Air service availale<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>MODE_RAIL</td>
+<td>
+Indicates if Any Category of Rail Service is Provided at the Facility (RailIntercity. RailCommuter, RailHeavy, or RailLight).<table>
+<tbody><tr>
+<td>
+0 = No rail service availale<br><pre></pre>
+1 = Rail service availale<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>MODE_FERRY</td>
+<td>
+Indicates if Any Category of Ferry Service is Provided at the Facility (FerryIntercity or FerryTransit).<table>
+<tbody><tr>
+<td>
+0 = No ferry service availale<br><pre></pre>
+1 = Ferry service availale<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>MODE_BIKE</td>
+<td>
+Indicates if a Bike-share Station is Located at the Facility (Bike Share Service).<table>
+<tbody><tr>
+<td>
+0 = No bike-share available<br><pre></pre>
+1 = Bike-share available<br><pre></pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>LAT_DD</td>
+<td>
+Latitude in decimal degrees.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>LONG_DD</td>
+<td>
+Longitude in decimal degrees.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>MGRS</td>
+<td>
+Military Grid Reference System (MGRS) Coordinate of the Facility. The MGRS is the geocoordinate standard used by NATO militaries for locating points on the earth. The MGRS provides a means to represent any location on the surface of the Earth using an alphanumeric string. Hierarchical references are based on the Universal Transverse Mercator (UTM) coordinate system. The MGRS is used for the entire earth.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>GOOGLEMAP</td>
+<td>
+Webpage hyperlink to location in Google Maps.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>DESCRIPT</td>
+<td>
+GeoPlan added field based on FAC_NAME.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>FGDLAQDATE</td>
+<td>
+GeoPlan added field based on the date acquired from source.<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+<tr valign="top">
+<td>AUTOID</td>
+<td>
+Unique ID added by GeoPlan<table>
+<tbody><tr>
+<td>
+</td>
+</tr>
+</tbody></table>
+<br>
+</td>
+</tr>
+</tbody></table>
+<table>
+<tbody><tr>
+<td>
+<pre></pre>
+</td>
+</tr>
+</tbody></table>
+<strong><b>USER NOTES:</b></strong>
+<br>
+<table width="500">
+<tbody><tr>
+<td>
+<pre>This data is provided 'as is'. GeoPlan relied on the integrity
+of the original data layer's topology
+</pre>
+</td>
+</tr>
+</tbody></table>
+<table width="500">
+<tbody><tr>
+<td>
+<pre>This data is provided 'as is' by GeoPlan and is complete to our
+knowledge.
+</pre>
+</td>
+</tr>
+</tbody></table>
+<table width="500">
+<tbody><tr>
+<td>
+<pre>GeoPlan relied on the integrity of the attribute information within
+the original data.
+</pre>
+</td>
+</tr>
+</tbody></table>
+<table width="500">
+<tbody><tr>
+<td>
+<pre>Transit bus service locations are not specifically included in the database.
+However, the status of transit bus as a connecting mode is included for
+each bike-share facility in the database.<br><br>
+</pre>
+</td>
+</tr>
+</tbody></table>
+<table width="500">
+<tbody><tr>
+<td>
+<pre>There is a general consensus that the U.S. passenger transportation system
+has become more intermodally linked since the passage of ISTEA, but the
+degree of that connectivity has never been measured. The Intermodal
+Passenger Connectivity Database (IPCD) was developed to provide a
+baseline connectivity measurement against which to measure future progress.
+Since 2007 the Bureau of Transportation Statistics (BTS) of the United
+States (U.S.) Department of Transportation (DOT) has been collecting that
+data on an on-going basis.<br><br>
+</pre>
+</td>
+</tr>
+</tbody></table>
+<table width="500">
+<tbody><tr>
+<td>
+<pre>This data is provided 'as is' and its horizontal positional accuracy
+has not been verified by GeoPlan<br><br>
+</pre>
+</td>
+</tr>
+</tbody></table>
+<table width="500">
+<tbody><tr>
+<td>
+<pre>This data is provided 'as is' and its vertical positional accuracy
+has not been verified by GeoPlan<br><br>
+</pre>
+</td>
+</tr>
+</tbody></table>
+<table width="550">
+<tbody><tr>
+<td>
+<pre>No special restrictions or limitations on using the item s content have
+been provided.</pre>
+<br>
+</td>
+</tr>
+</tbody></table>
+<table width="550">
+<tbody><tr>
+<td>
+<pre>The Florida Geographic Data Library is a collection of Geospatial Data
+compiled by the University of Florida GeoPlan Center with support from
+the Florida Department of Transportation. GIS data available in FGDL is
+collected from various state, federal, and other agencies (data sources)
+who are data stewards, producers, or publishers. The data available in
+FGDL may not be the most current version of the data offered by the
+data source. University of Florida GeoPlan Center makes no guarantees
+about the currentness of the data and suggests that data users check
+with the data source to see if more recent versions of the data exist.
+
+Furthermore, the GIS data available in the FGDL are provided 'as is'.
+The University of Florida GeoPlan Center makes no warranties, guaranties
+or representations as to the truth, accuracy or completeness of the data
+provided by the data sources. The University of Florida GeoPlan Center
+makes no representations or warranties about the quality or suitability
+of the materials, either expressly or implied, including but not limited
+to any implied warranties of merchantability, fitness for a particular
+purpose, or non-infringement. The University of Florida GeoPlan Center
+shall not be liable for any damages suffered as a result of using,
+modifying, contributing or distributing the materials.
+
+A note about data scale: 
+
+Scale is an important factor in data usage.  Certain scale datasets
+are not suitable for some project, analysis, or modeling purposes.
+Please be sure you are using the best available data. 
+
+1:24000 scale datasets are recommended for projects that are at the
+county level.
+1:24000 data should NOT be used for high accuracy base mapping such
+as property parcel boundaries.
+1:100000 scale datasets are recommended for projects that are at the
+multi-county or regional level.
+1:125000 scale datasets are recommended for projects that are at the
+regional or state level or larger.
+
+Vector datasets with no defined scale or accuracy should be
+considered suspect. Make sure you are familiar with your data
+before using it for projects or analysis. Every effort has been
+made to supply the user with data documentation. For additional
+information, see the References section and the Data Source Contact
+section of this documentation. For more information regarding
+scale and accuracy, see our webpage at:
+http://geoplan.ufl.edu/education.html</pre>
+<br>
+</td>
+</tr>
+</tbody></table>
+<strong><b>REFERENCES: </b></strong>
+<table width="60%">
+<tbody><tr>
+<td>
+<pre></pre>
+<br>
+</td>
+</tr>
+</tbody></table>
+<strong><b>DATA LINEAGE SUMMARY: </b></strong>
+<br>
+<table width="60%">
+<tbody><tr>
+<td>
+<pre>The GeoPlan Center took the following steps during the QA/QC process:
+- Downloaded the dataset from BTS on 5/30/2019 using this link:
+  https://data-usdot.opendata.arcgis.com/datasets/intermodal-passenger-connectivity-database-ipcd
+  (original dataset in shapefile format and in the WGS 1984 geographic
+  coordinate system).
+- Dataset projected into the FGDL Albers HPGN projection using
+  WGS_1984_(ITRF00)_To_NAD_1983 + NAD_1983_To_HARN_Florida.
+- Only features in Florida were desired, so a Select By Attribute was
+  run and features with the STATE field equal to FL were
+  selected. These features were exported to a new layer.
+- DESCRIPT field added based on the FAC_NAME field. Any records with
+  no data in the FAC_NAME field had their DESCRIPT field calculated as
+  'NO DESCRIPT AVAILABLE'.
+- ADDED MGRS, LAT_DD, LONG_DD, AND GOOGLEMAP FIELDS
+- FGDLAQDATE field added based on the date the dataset was downloaded
+  from source.
+- The longest record for each field was found and field character lengths
+  were shortened to the appropriate shortest length possible.
+- Uppercased fields and appropriate records in the dataset.
+- Layer name changed from Intermodal_Passenger_Connectivity_
+  Database_IPCD.shp to bts_ipcd_2018.shp.
+Process Date: 20190530
+<br>
+Dataset copied.
+Process Date: 20190728
+<br>
+</pre>
+</td>
+</tr>
+</tbody></table>
+<strong><b>MAP PROJECTION PARAMETERS: </b></strong>
+<br>
+</p><pre>Projection                          ALBERS
+Datum                               HPGN
+Units                               METERS
+Spheroid                            GRS1980
+1st Standard Parallel               24  0  0.000
+2nd Standard Parallel               31 30  0.000
+Central Meridian                   -84 00  0.000
+Latitude of Projection's Origin     24  0  0.000
+False Easting (meters)              400000.00000
+False Northing (meters)             0.00000
+</pre>
+<p>
+<strong><b>DATA SOURCE CONTACT (S):</b></strong>
+</p>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td>
+<pre>Name:
+Abbr. Name:
+Address:
+
+
+Phone:
+
+Web site:
+E-mail:
+Contact Person:
+         Phone:
+        E-mail:
+</pre>
+</td>
+<td valign="top"><pre>Bureau of Transportation Statistics, US Department of Transportation
+BTS
+1200 New Jersey Avenue, SE
+Washington, DC
+20590
+800-853-1351
+<br>
+https://osav-usdot.opendata.arcgis.com/
+answers@bts.gov
+
+</pre>
+</td>
+</tr>
+</tbody></table>
+<br>
+<strong><b>FGDL CONTACT:</b></strong>
+<pre>Name:                   FLORIDA GEOGRAPHIC DATA LIBRARY
+Abbr. Name:             FGDL
+Address:                Florida Geographic Data Library
+                        431 Architecture Building
+                        PO Box 115706
+                        Gainesville, FL  32611-5706
+Web site:               <a href="http://www.fgdl.org/">http://www.fgdl.org</a>
+
+Contact FGDL: 
+
+      Technical Support:	        <a href="http://www.fgdl.org/fgdlfeed.html">http://www.fgdl.org/fgdlfeed.html</a>
+      FGDL Frequently Asked Questions:  <a href="http://www.fgdl.org/fgdlfaq.html">http://www.fgdl.org/fgdlfaq.html</a>
+      FGDL Mailing Lists:		<a href="http://www.fgdl.org/fgdl-l.html">http://www.fgdl.org/fgdl-l.html</a>
+      For FGDL Software:                <a href="http://www.fgdl.org/software.html">http://www.fgdl.org/software.html</a>
+</pre>
+
+
+</body></html>
